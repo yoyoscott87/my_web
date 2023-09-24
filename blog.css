@@ -1,0 +1,54 @@
+/* stylelint-disable stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+img {
+  display: block; /* 將圖片設置為塊級元素 */
+  margin-left: 130%; /* 左邊的 margin 設為 auto */
+    /* 右邊的 margin 設為 0 */
+}
+.move-up {
+  position: relative; /* 使用相對定位 */
+  top: -35px; /* 負值表示向上移動的距離，可以根據需要調整 */
+}
+.move-left {
+  position: relative; /* 使用相對定位 */
+  margin-left: -0px; /* 負值表示向上移動的距離，可以根據需要調整 */
+}
