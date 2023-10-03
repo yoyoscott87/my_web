@@ -41,14 +41,23 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   display: block; /* 將圖片設置為塊級元素 */
-  margin-left: 130%; /* 左邊的 margin 設為 auto */
+  /*margin-left: 130%; /* 左邊的 margin 設為 auto */
     /* 右邊的 margin 設為 0 */
 }
 .move-up {
   position: relative; /* 使用相對定位 */
-  top: -35px; /* 負值表示向上移動的距離，可以根據需要調整 */
+  top: -38px;
+  border-radius: 50%;
+  display: block; /* 將圖片設置為塊級元素 */
+  margin-left: 130%; /* 左邊的 margin 設為 auto */
+   /* 負值表示向上移動的距離，可以根據需要調整 */
 }
 .move-left {
   position: relative; /* 使用相對定位 */
   margin-left: -0px; /* 負值表示向上移動的距離，可以根據需要調整 */
+}
+.head img {
+  display: block; /* 將圖片設置為塊級元素 */
+  margin-left: 130%; /* 左邊的 margin 設為 auto */
+    /* 右邊的 margin 設為 0 */
 }
